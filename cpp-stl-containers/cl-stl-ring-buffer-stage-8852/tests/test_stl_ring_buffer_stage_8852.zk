@@ -1,0 +1,10 @@
+// cl-stl-ring-buffer-stage-8852: Test Suite
+import "../crb_8852.zk"
+
+fn test_run():
+    res := ring_advance_8852(4, 16, 2)
+    if res != (6 + 8852) % 16: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-stl-ring-buffer-stage-8852!")

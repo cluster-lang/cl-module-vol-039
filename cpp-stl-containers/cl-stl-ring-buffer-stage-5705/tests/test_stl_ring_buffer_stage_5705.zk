@@ -1,0 +1,10 @@
+// cl-stl-ring-buffer-stage-5705: Test Suite
+import "../crb_5705.zk"
+
+fn test_run():
+    res := ring_advance_5705(4, 16, 2)
+    if res != (6 + 5705) % 16: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-stl-ring-buffer-stage-5705!")

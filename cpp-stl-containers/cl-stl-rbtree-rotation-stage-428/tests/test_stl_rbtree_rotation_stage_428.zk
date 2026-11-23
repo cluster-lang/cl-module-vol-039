@@ -1,0 +1,10 @@
+// cl-stl-rbtree-rotation-stage-428: Test Suite
+import "../crb_428.zk"
+
+fn test_run():
+    res := rb_node_weight_428(3, 2, 1)
+    if res != 3 + 428: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-stl-rbtree-rotation-stage-428!")

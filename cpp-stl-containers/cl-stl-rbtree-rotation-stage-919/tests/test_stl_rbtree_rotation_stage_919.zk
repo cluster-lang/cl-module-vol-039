@@ -1,0 +1,10 @@
+// cl-stl-rbtree-rotation-stage-919: Test Suite
+import "../crb_919.zk"
+
+fn test_run():
+    res := rb_node_weight_919(3, 2, 1)
+    if res != 3 + 919: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-stl-rbtree-rotation-stage-919!")

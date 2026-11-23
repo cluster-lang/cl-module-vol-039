@@ -1,0 +1,10 @@
+// cl-stl-rbtree-rotation-stage-48: Test Suite
+import "../crb_48.zk"
+
+fn test_run():
+    res := rb_node_weight_48(3, 2, 1)
+    if res != 3 + 48: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-stl-rbtree-rotation-stage-48!")

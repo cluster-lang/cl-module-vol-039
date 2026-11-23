@@ -1,0 +1,10 @@
+// cl-stl-rbtree-rotation-stage-473: Test Suite
+import "../crb_473.zk"
+
+fn test_run():
+    res := rb_node_weight_473(3, 2, 1)
+    if res != 3 + 473: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-stl-rbtree-rotation-stage-473!")

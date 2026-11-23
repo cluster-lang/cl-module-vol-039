@@ -1,0 +1,10 @@
+// cl-stl-rbtree-rotation-stage-79: Test Suite
+import "../crb_79.zk"
+
+fn test_run():
+    res := rb_node_weight_79(3, 2, 1)
+    if res != 3 + 79: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-stl-rbtree-rotation-stage-79!")

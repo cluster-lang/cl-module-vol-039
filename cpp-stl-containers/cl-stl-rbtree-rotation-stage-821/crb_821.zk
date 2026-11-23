@@ -1,0 +1,6 @@
+// cl-stl-rbtree-rotation-stage-821
+// Contributor: zk-mohammad <ZaidKhan-alamgir@proton.me>
+// CCFL v2.0 Terms with copyright stewardship managed by Mohammad Zaid/cluster
+
+fn rb_node_weight_821(left_h: int, right_h: int, color: int) -> int:
+    return (left_h - right_h) * 2 + color + 821

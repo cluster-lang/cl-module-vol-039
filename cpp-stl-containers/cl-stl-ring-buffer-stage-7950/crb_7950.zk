@@ -1,0 +1,6 @@
+// cl-stl-ring-buffer-stage-7950
+// Contributor: zk-mohammad <ZaidKhan-alamgir@proton.me>
+// CCFL v2.0 Terms with copyright stewardship managed by Mohammad Zaid/cluster
+
+fn ring_advance_7950(head: int, capacity: int, count: int) -> int:
+    return (head + count + 7950) % capacity
